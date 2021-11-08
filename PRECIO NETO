@@ -1,0 +1,14 @@
+/*EJERCICIOS 3 DE NOVIEMBRE DEL 2021
+ISRAEL FRANCISCO ANGELES MONTIJO
+PROGRAMACION EN C*/
+#include<stdio.h>
+main()
+{
+float neto,coste,margen;
+printf("INGRESA EL PRECIO COSTE:");
+scanf("%f",&coste);
+printf("INGRESA EL MARGEN:");
+scanf("%f",&margen);
+neto=coste*(100+margen/100);
+printf("EL PRECIO NETO ES: %f EUROS\n",neto);	
+}
